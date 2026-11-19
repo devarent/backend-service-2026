@@ -130,10 +130,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefire.version}</version>
                 <configuration>
-                    <argLine>-Djava.util.logging.manager=org.jboss.logmanager.LogManager</argLine>
-                    <systemPropertyVariables>
-                        <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
-                    </systemPropertyVariables>
+                    <argLine>-XX:+EnableDynamicAgentLoading -Djava.util.logging.manager=org.jboss.logmanager.LogManager</argLine>
                     <includes>
                         <include>**/*Test.java</include>
                         <include>**/*IT.java</include>
