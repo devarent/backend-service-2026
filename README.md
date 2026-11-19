@@ -1,4 +1,38 @@
 
+<!-- identity-block -->
+<div align="center">
+
+# backend-service-2026
+
+<sub>Java 21 + Quarkus order service: PostgreSQL, Flyway, Redis, OpenAPI, integration tests, Docker and Kubernetes.</sub>
+
+</div>
+
+## At a glance
+
+| Field | Detail |
+| --- | --- |
+| Repository | backend-service-2026 |
+| Primary language | Java |
+| Topics | docker, flyway, java, kubernetes, maven, microservices, postgresql, quarkus, redis, rest-api |
+| License | MIT |
+| Branch | main |
+| Maintainer | [@devarent](https://github.com/devarent) |
+
+## Overview
+
+backend-service-2026 is a hands-on repository focused on: Java 21 + Quarkus order service: PostgreSQL, Flyway, Redis, OpenAPI, integration tests, Docker and Kubernetes.. Primary language: Java. Topics: docker, flyway, java, kubernetes, maven, microservices, postgresql, quarkus, redis, rest-api. The README below documents the project; use the table above for a quick overview.
+
+### Global references
+
+<div align="center">
+
+🇮🇸 Iceland &middot; 🇳🇿 New Zealand &middot; 🇨🇭 Switzerland &middot; 🇸🇮 Slovenia &middot; 🇮🇪 Ireland &middot; 🇦🇹 Austria &middot; 🇵🇹 Portugal &middot; 🇸🇬 Singapore &middot; 🇫🇮 Finland
+
+</div>
+
+---
+
 <!-- dbx-style-kit -->
 <div align="center">
 
