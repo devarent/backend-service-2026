@@ -84,10 +84,11 @@ order-dependent and are avoided.
 
 ## Deliberate gaps
 
-- No Testcontainers PostgreSQL test. Flyway is exercised by the Docker Compose
-  stack and can be verified with `docker compose run --rm flyway` or by starting
-  the app against PostgreSQL. Adding Testcontainers is a natural next step when
-  Docker is guaranteed on CI runners.
+- No Testcontainers PostgreSQL test. Flyway and Hibernate `validate` are
+  exercised by the Docker Compose stack; start it with
+  `docker compose up --build` to verify the migration against PostgreSQL.
+  Adding Testcontainers is a natural next step when Docker is guaranteed on CI
+  runners.
 - No load test in the repository. A k6 script can target `POST /orders` and
   `GET /stats/revenue`; the HPA and resource requests are sized for a demo.
 - No mutation testing or coverage gate. Coverage is useful, but a hard percentage

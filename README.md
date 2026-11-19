@@ -520,7 +520,7 @@ kubectl -n order-service rollout status deployment/order-service --timeout=180s
 
 The base includes a Deployment with startup/liveness/readiness probes, resource
 requests and limits, a non-root security context, a Service, an Ingress, an HPA,
-a PodDisruptionBudget, a Prometheus `ServiceMonitor`, and a default-deny
+a PodDisruptionBudget, a Prometheus `ServiceMonitor`, and a port-scoped
 `NetworkPolicy`. The `prod` overlay raises replicas and the disruption budget.
 Before applying, replace the example host in `base/ingress.yaml`, the database
 and Redis hostnames in `base/configmap.yaml`, and the image tag in
