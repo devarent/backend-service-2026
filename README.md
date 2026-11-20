@@ -1,3 +1,13 @@
+# Backend-Service-2026
+<sub><span style="opacity: 0.85">Java 21 + Quarkus order service: PostgreSQL, Flyway, Redis, OpenAPI, integration tests, Docker and Kubernetes.</span></sub>
+<div align="center" style="font-size: 0.9em">
+<img src="assets/brand-logo.svg" alt="Arya Fatthurahman" width="130px" />
+</div>
+
+[![CI](https://github.com/devarent/backend-service-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/devarent/backend-service-2026/actions/workflows/ci.yml)
+
+---
+
 
 <!-- identity-block -->
 <div align="center">
